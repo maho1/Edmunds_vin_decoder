@@ -77,7 +77,18 @@ $equipment_response = edmunds_api_req($equipment_url);
         <form name="input" method="post">
             <input type="text" name="vin" value="<?=$vin?>">
             <input type="submit" value="Submit">
-        </form>    
+        </form>
+        <div style="float:right;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- VinDecoder -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:160px;height:600px"
+                 data-ad-client="ca-pub-6597159822695114"
+                 data-ad-slot="4462360766"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <?php
         if(!isset($_POST['vin'])){
             die();
